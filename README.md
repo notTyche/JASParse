@@ -16,7 +16,7 @@ Easy parsing of Answer Sets in in custom data structures
                                      .parse()
                                      .buildAdjacencyMatrix();
         
-}
+    }
         
 ```
 
