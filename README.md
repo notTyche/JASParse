@@ -14,10 +14,9 @@ Easy parsing of Answer Sets in in custom data structures
 
         var adjMatrix = new Builder().addRule("test.txt")
                                      .parse()
-                                     .buildGraph()
                                      .buildAdjacencyMatrix();
         
-    }
+}
         
 ```
 
