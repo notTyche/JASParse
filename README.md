@@ -21,5 +21,5 @@ Easy parsing of Answer Sets in in custom data structures
         
 ```
 
-### Import the `Builder class` and enter the name of the file to be parsed as a parameter, 
+Import the `Builder class` and enter the name of the file to be parsed as a parameter, 
 use the builder to indicate in which data structure you want to have your answer set.
