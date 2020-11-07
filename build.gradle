@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'idea'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+mainClassName = 'Application'
+
+sourceSets.main.resources.srcDirs  = [ "src/main/resources" ]
+sourceSets.main.resources.includes = [ "**/*.*", "**/*.mp3" ]
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

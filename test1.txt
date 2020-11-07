@@ -1,0 +1,9 @@
+pollo(X) | limone(X) :- finocchio(X).
+mela(X) :- finocchio(X).
+finocchio(X) :- pistacchio(X,Y), mela(Y).
+
+mela(1).
+finocchio(3).
+pistacchio(2,3).
+pistacchio(4,2).
+pollo(4).

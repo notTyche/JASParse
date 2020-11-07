@@ -1,0 +1,11 @@
+culla(Y):- bambino(Y), piange(Y,Y).
+culla(Y) :- piange(Y,X), bambino(X).
+piange(X,X) :- bambino(X), latte(Y),culla(X).
+piange(X,Y):- culla(X), culla(Y), latte(X).
+
+piange(1,2).
+bambino(2).
+bambino(3).
+latte(2).
+culla(1).
+piange(1,1).
