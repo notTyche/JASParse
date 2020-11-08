@@ -14,9 +14,8 @@ public class Application {
         graph.printGraph();
 
         var adjMatrix= new Builder().addRule("test.txt")
-                                             .parse()
-                                             .buildGraph()
-                                             .getAdjacencyMatrix();
+                                              .parse()
+                                              .buildAdjacencyMatrix();
 
         for (int i = 0; i < graph.size(); ++i) {
             for (int j = 0; j < graph.size(); ++j)

@@ -134,7 +134,8 @@ public class Builder {
         return this.graph;
     }
 
-    public Integer[][] buildMatrix(){
+    public Integer[][] buildAdjacencyMatrix(){
+        buildGraph();
         return this.graph.getAdjacencyMatrix();
     }
 

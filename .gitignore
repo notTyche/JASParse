@@ -2,3 +2,15 @@
 /.gradle/
 /build/
 /build/classes/java/main/
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../../../:\Users\perfi\IdeaProjects\JASParse\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+/.idea
+/test.txt
+/test1.txt
+/test2.txt
