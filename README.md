@@ -1,5 +1,5 @@
 # JASParse
-Easy tool to represent ASP(Answer Set Programing) program in in custom data structures
+Easy tool to represent ASP(Answer Set Programing) program in a custom data structures
 
 ## How to use?
 
