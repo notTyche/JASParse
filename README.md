@@ -7,11 +7,11 @@ Easy tool to represent ASP(Answer Set Programing) program in a custom data struc
 
     public static void main(String[] args) throws IOException, ParseException {
 
-        var graph = new Builder().addRule("test.txt")
+        var graph = new Builder().addRule("test.dlv")
                                  .parse()
                                  .buildGraph();
 
-        var adjMatrix = new Builder().addRule("test.txt")
+        var adjMatrix = new Builder().addRule("test.dlv")
                                      .parse()
                                      .buildAdjacencyMatrix();
         
